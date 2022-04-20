@@ -1,2 +1,9 @@
 # 项目排除路径
-/out/
+/out/### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
