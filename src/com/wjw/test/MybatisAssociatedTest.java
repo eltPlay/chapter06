@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 
 /**
  * Mybatis关联查询映射测试类
+ *
+ * @author 吴嘉炜
  */
 public class MybatisAssociatedTest {
     /**
@@ -60,7 +62,7 @@ public class MybatisAssociatedTest {
 
     /**
      * 多对多
-     * 嵌套结果
+     * 嵌套查询
      */
     @Test
     public void findOrdersTest() {
